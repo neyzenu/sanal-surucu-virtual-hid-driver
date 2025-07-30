@@ -7,7 +7,7 @@ Bu proje, bir Linux sanal klavye sürücüsünü kernel seviyesinde oluşturarak
 ---
 
 ## 🇹🇷 Türkçe Dokümantasyon
-
+./install.sh ile kolayca yükleyebilirsiniz
 ### 🚀 Özellikler
 - Kernel seviyesinde çalışan sanal klavye
 - `/dev/virtualkbd` dosyası üzerinden tuş komutları alır (`keycode:1` → bas, `keycode:0` → bırak)
@@ -60,6 +60,7 @@ Tuşlar çalışmıyor: cat /proc/bus/input/devices ile kayıtlı aygıtları ko
 
 sudo rmmod virtual_keyboard
 🇬🇧 English Documentation
+You can easily install it with ./install.sh
 🚀 Features
 Linux kernel module virtual keyboard
 
