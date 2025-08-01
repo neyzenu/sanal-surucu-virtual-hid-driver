@@ -10,9 +10,9 @@
 #define CLASS_NAME "virtualkbd"
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("User");
+MODULE_AUTHOR("Neyzen Ulaş Yaşar");
 MODULE_DESCRIPTION("Virtual Keyboard Driver");
-MODULE_VERSION("0.1");
+MODULE_VERSION("0.7");
 
 static struct input_dev *vkbd_dev;
 static int major_number;
